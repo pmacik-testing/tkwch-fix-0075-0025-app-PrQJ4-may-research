@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-bsnd
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkwch-fix-0075-0025-tenant/tkwch-fix-0075-0025-app/devfile-sample-bsnd@sha256:f967573f6a1e420affac1b6dffd2550b608b94a1cfa268194bcc448a84eaa436
         name: my-nodejs
         ports:
         - containerPort: 3001
